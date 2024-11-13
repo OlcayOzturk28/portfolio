@@ -1,4 +1,6 @@
-
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     background-color: #262622;
     position: relative;
