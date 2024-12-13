@@ -40,6 +40,8 @@ body {
 .btn-blauw {
     background-color: #0367A6;
     color: #262626;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .btn-blauw:hover {
