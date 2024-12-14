@@ -112,7 +112,12 @@ aside {
     margin-top: 10px;
 }
 
-
+#thuisMap {
+    width: 80%;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
 /*
