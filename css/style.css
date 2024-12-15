@@ -120,54 +120,6 @@ aside {
 }
 
 
-/*
-.contact-main-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #262622;
-}
-
-
-.cloud-icon {
-    text-align: center;
-}
-
-
-.cloud-icon-blue {
-    font-size: 10rem;
-    color: #0367A6;
-}
-
-.contact-info {
-    position: relative;
-    top: -80px;
-    background-color: #0367A6;
-    padding: 2em;
-    border-radius: 20px;
-    display: inline-block;
-    width: 80%;
-    max-width: 600px;
-}
-
-.contact-title {
-    margin-top: 0;
-    font-size: 2rem;
-    color: #262622;
-}
-
-.contact-text {
-    font-size: 1.1rem;
-    color: #262622;
-}
-
-
-.email-color {
-    color: #262622;
-}
-
-*/
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 

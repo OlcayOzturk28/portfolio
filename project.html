@@ -47,31 +47,93 @@
         </nav>
     </header>
     
-    <main>
-        <section class="container mt-5">
-            <div class="row align-items-center">
-                
-                <section class="col-md-6">
-                    <figure>
-                        <img src="assets/images/picture.jpg" alt="Project Foto" class="img-fluid rounded">
-                    </figure>
+    <div class="container mt-5">
+        <div class="row align-items-top">
+           
+            <main class="col-md-8">
+                <section>
+                    <div class="row align-items-center">
+                        
+                      
+                            <section class="row">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                                  <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                                      aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                      aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                      aria-label="Slide 3"></button>
+                                  </div>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="assets/images/picture.jpg" class="d-block w-100" alt="...">
+                                      <div class="carousel-caption d-none d-sm-block">
+                                        <h4 class="text-uppercase fs-5 fw-bolder pt-3 shadow">Netwerken</h4>
+                                        <p class="shadow">met devices en connecties... © dall.e</p>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="assets/images/picture1.jpg" class="d-block w-100" alt="...">
+                                      <div class="carousel-caption d-none d-sm-block">
+                                        <h4 class="text-uppercase fs-5 fw-bolder pt-3 shadow">... en IOT</h4>
+                                        <p class="shadow">met internet én studenten... © dall.e</p>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="assets/images/picture2.jpg" class="d-block w-100" alt="...">
+                                      <div class="carousel-caption d-none d-sm-block">
+                                        <h4 class="text-uppercase fs-5 fw-bolder pt-3 shadow">Een ideale combo!</h4>
+                                        <p class="shadow">© dall.e</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                                </div>
+                            </section>
+                        
+                        
+                        
+                        <section class="col-md-12 mt-4">
+                            <article>
+                                <h1 class="text-blauw">Meer over mijn project</h1>
+                                <p class="text-white">
+                                    Meer informatie over dit project
+                                </p>
+                            </article>
+                            <a href="portfolio.html" class="btn btn-blauw">Terug naar projecten</a>
+                            <a href="contact.html" class="btn btn-blauw">Ga naar contact</a>                        
+                        </section>
+                    </div>
                 </section>
-                
-                <section class="col-md-6">
-                    <article>
-                        <h1 class="text-blauw">Meer over mijn project</h1>
-
-                        <p class="text-white">
-                            Meer informatie over dit project
-                        </p>
-                    </article>
-                    <a href="portfolio.html" class="btn btn-blauw">Terug naar projecten</a>
-                    <a href="contact.html" class="btn btn-blauw">Ga naar contact</a>                        
-                </section>
-            </div>
-        </section>
-    </main>
-
+            </main>
+    
+           
+            <aside class="col-md-4 text-white p-3">
+                <h2 class="text-blauw">Contact</h2>
+                <p class="text-blauw mb-3">
+                    <a href="mailto:ozturkolcay2828@gmail.com" class="text-blauw">ozturkolcay2828@gmail.com</a>
+                </p>
+                <ul class="list-inline socials">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/OlcayOzturk28" target="_blank">
+                            <i class="bi bi-github text-blauw"></i>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    
 
     <footer class="container-fluid">&copy; <span id="year"></span> Olcay Oztürk</footer>
 
